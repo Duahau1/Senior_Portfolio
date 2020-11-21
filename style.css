@@ -1,0 +1,74 @@
+
+ .card{
+     margin-top: 10px;
+     height: 370px;
+
+    }  
+ .embed-responsive .card-img-top {
+    object-fit: cover;
+}
+  /* Flip Cards CSS */
+  .card-container {
+    display: grid;
+    perspective: 700px;
+    
+  }
+  .jumbotron{
+    margin-bottom: 0.2rem !important;
+  }
+  .card-flip {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    grid-template-areas: "frontAndBack";
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+    
+  }
+  .card-flip > div{
+    border: #48486f 2px solid;
+    border-radius: .5rem!important;
+  }
+  
+  .card-flip div {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+  }
+  
+  .front {
+    grid-area: frontAndBack;
+    text-align: center;
+  }
+  
+  .back {
+    grid-area: frontAndBack;
+    transform: rotateY(-180deg);
+  }
+  
+  .card-container:hover .card-flip {
+    transform: rotateY(180deg);
+  }
+
+  .card-block{
+    overflow-y: auto;
+    max-height: 300px;
+    padding:0.5rem ;
+  }
+ .jumbotron-fluid{   
+      color: white;
+      padding-bottom: 3rem;
+      padding-top: 3rem;
+  }
+ footer{
+      background-color: #2a2a40;
+      text-emphasis: 1rem;
+      color: white;
+      text-align: center;
+      opacity:0.9;
+  }
+.icon{
+    width:3rem;
+    height:2rem;
+    cursor: pointer;
+    margin-bottom:0.5rem;
+}
+

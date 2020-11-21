@@ -1,0 +1,195 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </link>
+    
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.net.min.js"></script>
+    
+
+
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid " id="vanta_background">
+        <div class="container">
+            <h1 class="display-4"> CS481 Senior Design Project</h1>
+            <p class="lead">Stay up-to-date with coronavirus (COVID-19) data summarized by confirmed cases, geography,
+                and testing
+                while playing our ultimate tic-tac-toe game </p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+    </div>
+    <div id="con_content">
+    <div  class="container">
+        <h1>Project Walkthrough</h1>
+        <div class="row">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YGE5euSZnbI" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+        </div>
+        <h1>Contributors</h1>
+        <div class="row">
+            <!--Card 1 Beginning-->
+            <div class="col-md-3 front card-container">
+                <div class="card-flip">
+                    <!--Card 1 Front-->
+                    <div class="card front shadow p-3 mb-5 bg-white rounded">
+                        <div class="embed-responsive embed-responsive-1by1">
+                            <img class="card-img-top embed-responsive-item" src="./pic/van.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-block">
+                            <h4 class="card-title">Van Nguyen</h4>
+                        </div>
+                    </div>
+                    <!--Card 1 Back-->
+                    <div class="card back">
+                        <div class="card-block">
+                            <h4 class="card-title">Contact Information</h4>
+                            <a href="https://github.com/Duahau1"><img class="icon" src="./pic/github-sign.svg"/></a>
+                            <a href="https://www.linkedin.com/in/van-nguyen-623558172/"><img class="icon" src="./pic/linkedin.svg"/></a>
+                            <a href="https://phantomgalaxyblog.wordpress.com/"><img class="icon" src="./pic/wordpress.svg"/></a>
+                            <a href="https://duahau1-github-io-8owoxuuij.vercel.app"><img class="icon" src="./pic/web.svg"/></a>
+                            <h4 class="card-title">Things about me...</h4>
+                            <p class="card-text">In this project, I primarily worked on implementing an 3D interactive
+                                globe that shows the COVID-19 cases worldwide and an interactive US map that shows the
+                                COVID-19 cases nationwide. I hooked the search functionality of each of the map with the
+                                serverless function I made which help reduce retrieval time by caching temporal data in
+                                Redis Cache. 
+                            </p>
+                            <p class="card-text">
+                                Other than that, I wrote e2e tests for the applications using
+                                Jest+Puppeteer and set up CI/CD pipeline under Github Actions. About me, I have a keen
+                                interest in learning about designing software and writing blog. I hope that in the
+                                future the pandemic is cleared out and I have more chances to work on interesting
+                                projects like this.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Card 1 End-->
+            <!--Card 2 Beginning-->
+            <div class="col-md-3 front card-container">
+                <div class="card-flip">
+                    <!--Card 2 Front-->
+                    <div class="card front shadow p-3 mb-5 bg-white rounded">
+                        <div class="embed-responsive embed-responsive-1by1">
+                            <img class="card-img-top embed-responsive-item" src="./pic/Kass.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-block">
+                            <h4 class="card-title">Kass Adams</h4>
+                        </div>
+                    </div>
+                    <!--Card 2 Back-->
+                    <div class="card back">
+                        <div class="card-block">
+                            <h4 class="card-title">Contact Information</h4>
+                            <a href="https://github.com/KassAdams "><img class="icon" src="./pic/github-sign.svg"/></a>
+                            <a href="https://www.linkedin.com/in/kassadams/"><img class="icon" src="./pic/linkedin.svg"/></a>
+                            <h4 class="card-title">Things about me...</h4>
+                            <p class="card-text">I thought that Ultimate TicTacToe was not a widely known thing when I
+                                recommended adding it to our Covid Tracker. It wasnt until we were trying to come up
+                                with the rules that Payton mentioned she found it on Wikipedia and also that some
+                                acquaintances had mentioned it in a message thread as well. 
+                            </p>
+                            <p class="card-text">
+                                But I digress... I worked on
+                                the backend logic for the Ultimate TicTacToe game as well as played my part to help
+                                others where I could be it by boosting moral with as many references I could, playing
+                                devils advocate, garnering extra credit from Shane or letting Van use my heroku account.
+                                I, at this moment, have a position as a Software Engineer at ClickBank and will
+                                hopefully still be employed there after graduation. On an unrelated note: play D&D, go
+                                Lakers, go Titans.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Card 2 End-->
+            <!--Card 3 Beginning-->
+            <div class="col-md-3 front card-container">
+                <div class="card-flip">
+                    <!--Card 3 Front-->
+                    <div class="card front shadow p-3 mb-5 bg-white rounded">
+                        <div class="embed-responsive embed-responsive-1by1">
+                            <img class="card-img-top embed-responsive-item" src="./pic/payton.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-block">
+                            <h4 class="card-title">Payton Elsey</h4>
+                        </div>
+                    </div>
+                    <!--Card 3 Back-->
+                    <div class="card back">
+                        <div class="card-block">
+                            <h4 class="card-title">Contact Info</h4>
+                            <a href="https://www.linkedin.com/in/payton-elsey-426b15180/"><img class="icon" src="./pic/github-sign.svg"/></a>
+                            <a href="https://github.com/paytonelsey"><img class="icon" src="./pic/linkedin.svg"/></a>
+                            <h4 class="card-title">Things about me...</h4>
+                            <p class="card-text">After graduation, I plan on continuing my career with Aquicore. They
+                                are a SaaS company that works to connect people with buildings by providing insights,
+                                analytics, and data representation for a buildings HVAC system and other equipment. They
+                                are located in Washington D.C., but I am currently working remotely as a Software
+                                Engineer Intern for them and have accepted a full time offer starting in January 2021.
+                                Ive worked with a variety of tools and languages but find I most enjoy languages like
+                                Java and working on front end development. For this project, I worked on getting the
+                                front end designed and implemented for the tic-tac-toe game with React and NodeJS. We
+                                wanted to add a twist on the COVID-19 tracker that everyone was doing by adding
+                                something that would provide a moment of stress relief when looking at the state of the
+                                world during this pandemic.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Card 3 End-->
+            <!--Card 4 Beginning-->
+            <div class="col-md-3 front card-container">
+                <div class="card-flip">
+                    <!--Card 4 Front-->
+                    <div class="card front shadow p-3 mb-5 bg-white rounded">
+                        <div class="embed-responsive embed-responsive-1by1">
+                            <img class="card-img-top embed-responsive-item" src="./pic/alex.png" alt="Card image cap">
+                        </div>
+                        <div class="card-block">
+                            <h4 class="card-title">Alex Acevedo</h4>
+                        </div>
+                    </div>
+                    <!--Card 4 Back-->
+                    <div class="card back">
+                        <div class="card-block">
+                            <h4 class="card-title">Contact Info</h4>
+                            <a href="https://www.linkedin.com/in/alexander-acevedo-19901964/"><img class="icon" src="./pic/github-sign.svg"/></a>
+                            <a href="https://github.com/acevedo88"><img class="icon" src="./pic/linkedin.svg"/></a>
+                            <h4 class="card-title">Things about me...</h4>
+                            <p class="card-text">For this project, I primarily developed the website using the ReactJS
+                                API. I integrated built in functions to route weblinks and pages that were implemented
+                                by my other teamates. I also used Styled. Components to assist with the CSS designs of
+                                each page. I currently have an Internship with eTT Aviation as a Junior Software
+                                Engineer where I do Full Stack Development for a SkedFlex Software used by Airlines.
+                                After graduation, the plan is to be hired on full time where I will continue to help
+                                develop thier software here in Boise, Idaho after January 2021. Languages I primarily
+                                use are: Java, JavaScript, PHP, C# and Swift. I will aslo continue to help design
+                                websites in the future as they are a huge intrest of mine
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Card 4 End-->
+        </div>
+    </div>
+</div>
+    <footer class=".jumbotron jumbotron-fluid" id="vanta_footer">
+        <p>PKVA © 2020 All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
